@@ -1,0 +1,28 @@
+.header{
+  padding-top: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.header .title h3{
+  font-size: var(--medium-font-size);
+}
+.header .title h3 span{
+  color: var(--main-color);
+}
+.header .info_hours_watch{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header .info_hours_watch .hours,
+.header .info_hours_watch .watch{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .info_hours_watch .hours .icon svg
+.header .info_hours_watch .watch .icon svg{
+  width: 12px !important;
+  height: 12px !important;
+}

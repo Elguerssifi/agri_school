@@ -1,0 +1,228 @@
+.header {
+  padding: 50px 0 60px 0;
+}
+.header .row{
+  display: flex;
+  gap: 60px;
+}
+.header .about_course{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.header .about_course .title h3{
+  font-size: 32px;
+}
+.header .about_course .title h3 span{
+  color: var(--main-color);
+}
+.header .about_course .description p{
+  font-size: var(--small-font-size);
+}
+.header .about_course .description p span{
+  font-weight: var(--big-font-weight);
+}
+.header .subscribe_course{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.header .subscribe_course .students_counter{
+  font-size: 16px;
+  font-weight: var(--small-font-weight);
+}
+.header .subscribe_course .course_price{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header .subscribe_course .course_price .new_price{
+  font-size: var(--medium-font-size);
+  font-weight: var(--big-font-weight);
+  direction: ltr;
+}
+.header .subscribe_course .course_price .old_price{
+  font-size: 20px;
+  font-weight: var(--big-font-weight);
+  color: rgba(173, 173, 173, 1);
+  position: relative;
+  direction: ltr;
+}
+.header .subscribe_course .course_price .old_price::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(173, 173, 173, 1);
+}
+.header .subscribe_course .subscribe_this_course{
+  width: 100%;
+}
+.header .subscribe_course .subscribe_this_course button{
+  width: 100%;
+  height: 60px;
+  background-color: var(--black-color);
+  border-radius: 12px;
+  font-size: 19px;
+  font-weight: var(--big-font-weight);
+  color: var(--white-color);
+}
+.header .video_container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.header .video_container .video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.header .video_container .play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 30px;
+}
+.header .video_container .play_button img{
+  width: 20px;
+}
+
+
+/*  About Course*/
+.about_course_section{
+  padding: 20px 30px;
+  box-shadow: 0px 2px 20px 0px #00000026;
+  border-radius: 20px;
+}
+.about_course_section .row{
+  display: flex;
+  justify-content: space-between;
+}
+.item_about_course{
+  display: flex;
+  flex-direction: column;
+}
+.item_about_course .description span{
+  font-size: 18;
+  font-weight: var(--small-font-weight);
+  color: var(--black-color);
+}
+.item_about_course .sub_description p{
+  font-size: 18px;
+  font-weight: var(--big-font-weight);
+}
+
+/* Get Certified */
+
+.certified_section {
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+.certified_section .certified_container{
+  padding: 20px 30px;
+  box-shadow: 0px 2px 20px 0px #00000026;
+  border-radius: 20px;
+  position: relative;
+}
+.certified_section .certified_container .certified_description{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 60%;
+}
+.certified_section .certified_container .certified_description h4{
+  font-size: 24px;
+}
+.certified_section .certified_container .certified_description p{
+  font-size: 20px;
+}
+.certified_section .certified_img{
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  transform: translateY(50%);
+  max-width: 375.53px;
+  width: 100%;
+  height: 268px;
+  overflow: hidden;
+}
+.certified_section .certified_img img{
+  width: 100%;
+}
+
+/* Create ACCount*/
+.create_account_section{
+  padding-top: 60px;
+}
+.create_account_section .form_container{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create_account_section .form_container form{
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.create_account_section .form_container form .name_form,
+.create_account_section .form_container form .email_phone_form{
+  display: flex;
+  gap: 10px;
+}
+.create_account_section .form_container form .input_container{
+  width: 100%;
+  height: 52px;
+  background-color: var(--white-color);
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.create_account_section .form_container form .input_container .icon{
+  display: flex;
+}
+.create_account_section .form_container form .input_container input{
+  font-size: 14.5px;
+  font-weight: var(--small-font-weight);
+  width: 100%;
+}
+.create_account_section .form_container form .button_submit{
+  width: 100%;
+}
+.create_account_section .form_container form .button_submit button{
+  width: 100%;
+  height: 59px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: var(--big-font-weight);
+  color: var(--white-color);
+  cursor: pointer;
+}

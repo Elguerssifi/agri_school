@@ -1,0 +1,128 @@
+.courses_section{
+  padding: 60px 0 90px 0; 
+}
+.courses_section .title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.courses_section .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.item_container{
+  padding: 19px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  max-width: calc(364px - (43px / 3));
+  width: 100%;
+  max-height: 569px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.item_container .image_item{
+  overflow: hidden;
+  position: relative;
+}
+.item_container .image_item img{
+  width: 100%;
+  border-radius: 10px;
+}
+.item_container .video_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_container .video_overlay .video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item_container .description_item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item_container .description_item .title_watch_time{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.item_container .description_item .title_watch_time h4{
+  font-size: 20px;
+}
+.item_container .description_item .title_watch_time .watch_time{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.item_container .description_item .title_watch_time .watch_time .hours,
+.item_container .description_item .title_watch_time .watch_time .views{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.item_container .description_item .title_watch_time .watch_time .hours p,
+.item_container .description_item .title_watch_time .watch_time .views p{
+  font-size: 12px;
+  color: rgba(145, 142, 142, 1);
+}
+.item_container .description_item .price{
+  display: flex;
+  flex-direction: column;
+}
+.item_container .description_item .price h4{
+  font-size: 24px;
+}
+.item_container .description_item .price span{
+  position: relative;
+  font-size: 15px;
+  font-weight: var(--big-font-weight);
+  color: rgba(203, 203, 203, 1);
+  width: fit-content;
+}
+.item_container .description_item .price span::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(203, 203, 203, 1);
+  transform: translateY(50%);
+}
+.item_container .subscribe{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.item_container .subscribe button{
+  width: 268px;
+  height: 42.36px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-size: var(--small-font-size);
+  font-weight: var(--big-font-weight);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.item_container .subscribe .like_icon{
+  background-color: rgba(240, 239, 239, 1);
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}

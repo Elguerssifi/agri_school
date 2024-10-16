@@ -1,0 +1,64 @@
+.hero_section{
+  padding-top: 160px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+.hero_section .header{
+  /* background-color: red; */
+  height: calc(70vh - 160px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero_section .header .title h1{
+  text-align: center;
+  font-size: var(--medium-font-size);
+}
+.hero_section .header .title h1 span{
+  color: var(--main-color);
+  font-weight: var(--big-font-weight);
+}
+.hero_section .header .about_courses button{
+  width: 394.89px;
+  height: 60.64px;
+  border-radius: 14px;
+  background:var(--linear-green);
+  font-size: 22.57px;
+  font-weight: var(--small-font-weight);
+  font-family: var(--font-family);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.hero_footer{
+  background: url("../../../../public/Assets/images/hero_footer.png");
+  height: 27vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero_footer .items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero_footer .items .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero_footer .items .item span{
+  font-size: 22.57px;
+  font-weight: var(--small-font-weight);
+  color: var(--white-color);
+}
+.hero_footer .items .item span:last-of-type{
+  font-size: 39.66px;
+  font-weight: var(--small-font-weight);
+  color: var(--white-color);
+}

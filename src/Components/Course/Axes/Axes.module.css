@@ -1,0 +1,66 @@
+.axes_section{
+  padding-top: 60px;
+}
+.axes_section .title{
+  padding-bottom: 50px;
+}
+
+.accordion_container {
+  width: 100%;
+}
+.accordion_item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.accordion_header {
+  background-color: var(--white-color);
+  cursor: pointer !important;
+  padding: 20px 28px 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.accordion_header h4{
+  font-size: 16px;
+  color: var(--main-color);
+}
+.accordion_title {
+  margin: 0;
+}
+.chevron svg{
+  width: 14px;
+}
+.accordion_content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.accordion_content.open {
+  max-height: fit-content;
+  opacity: 1;
+}
+
+.accordion_content.closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordion_content ul{
+  padding: 15px 28px;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: var(--small-font-weight);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.accordion_content ul li{
+  border-bottom: 1px solid #ADADAD;
+  padding-bottom: 15px;
+}

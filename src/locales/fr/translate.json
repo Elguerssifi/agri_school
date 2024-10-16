@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos de l'académie",
+    "services": "Les cours",
+    "contact": "Contactez-nous",
+    "createAccount": "Créer un compte",
+    "joinTeam": "Rejoindre l'équipe",
+    "arabic": "Arabe",
+    "french": "Français"
+  },
+  "hero": {
+    "introduction": {
+      "part1": "Avec",
+      "highlight": "Agrischool Academy",
+      "part2": ", apprenez à votre rythme, au moment et à l'endroit qui vous conviennent. Ces formations sont destinées aux personnes qui souhaitent apprendre les métiers agricoles."
+    },
+    "discoverCourses": "Découvrez les cours de l'académie",
+    "subscriberCount": "Nombre d'abonnés",
+    "studentCount": "Nombre d'étudiants",
+    "successRate": "Taux de réussite"
+  },
+ "about": {
+    "title": "À propos de l'académie",
+    "introduction": {
+      "part1": "Que vous ayez entre",
+      "ageRange": "20 et 60 ans",
+      "part2": "peu importe votre niveau d'études, que vous soyez au",
+      "country": "Maroc",
+      "part3": "ou dans n'importe quel pays d'Afrique, nous vous invitons à rejoindre nos",
+      "educationalPrograms": "programmes éducatifs",
+      "part4": "Nous croyons que la connaissance est la clé du succès dans",
+      "successKey": "le monde des projets agricoles, c'est pourquoi nous nous considérons comme un centre d'apprentissage exceptionnel qui offre",
+      "remoteTraining": "une formation à distance",
+      "professionalism": "de manière simple et professionnelle."
+    }
+  },
+  "newsletter": {
+    "email_placeholder": "Veuillez entrer votre e-mail",
+    "subscribe": "S'abonner",
+    "contact_info": "Pour plus d'informations, contactez-nous par e-mail"
+  },
+  "reviews": [
+    {
+      "description": "Je suis fier d'avoir choisi <span>Agrischool</span>. Les programmes éducatifs étaient complets et le diplôme reconnu m'a aidé à développer mon projet agricole.",
+      "name": "Abdelrahim Kermawi"
+    },
+    {
+      "description": "Je cherchais une académie offrant un enseignement de qualité dans le domaine de l'agriculture, et <span>Agrischool</span> était le choix idéal. Le diplôme que j'ai obtenu m'a ouvert de nouvelles portes dans mon domaine.",
+      "name": "Mohamed Chafai"
+    },
+    {
+      "description": "Les cours chez <span>Agrischool</span> m'ont aidé à acquérir de nouvelles compétences en agriculture durable. Le diplôme reconnu que j'ai obtenu m'a rendu plus confiant pour postuler à des emplois.",
+      "name": "Fatima Zahra"
+    }
+  ],
+  "reviewsTitle": "Avis des étudiants",
+  "reviewsDescription": "Nous avons traité chaque étudiant comme un membre de la famille, ce qui a créé cette méthodologie. <br /> De nombreuses opportunités éducatives et des diplômes reconnus par les autorités compétentes.",
+  "accordion": {
+    "coursesTitle": "Quelles sont les formations proposées par l'académie <span>Agrischool</span> ?",
+    "coursesContent": "Agrischool propose une variété de formations dans les domaines de l'agriculture durable, de l'agriculture biologique, de l'apiculture, de l'irrigation moderne et de la gestion de projets agricoles. Ces formations sont conçues pour répondre aux besoins des professionnels et des amateurs.",
+    "certificatesTitle": "Les certificats fournis par <span>Agrischool</span> sont-ils reconnus ?",
+    "certificatesContent": "Oui, les certificats délivrés par Agrischool sont reconnus par plusieurs organismes spécialisés dans le domaine agricole, et ils renforcent vos chances d'obtenir des emplois ou de développer vos propres projets.",
+    "registrationTitle": "Comment puis-je m'inscrire aux formations ?",
+    "registrationContent": "Agrischool propose une variété de formations dans les domaines de l'agriculture durable, de l'agriculture biologique, de l'apiculture, de l'irrigation moderne et de la gestion de projets agricoles. Ces formations sont conçues pour répondre aux besoins des professionnels et des amateurs.",
+    "onlineTitle": "Puis-je suivre les formations en ligne ?",
+    "onlineContent": "Oui, les certificats délivrés par Agrischool sont reconnus par plusieurs organismes spécialisés dans le domaine agricole, et ils renforcent vos chances d'obtenir des emplois ou de développer vos propres projets.",
+    "supportTitle": "<span>Agrischool</span> offre-t-elle un soutien après la fin de la formation ?",
+    "supportContent": "Oui, les certificats délivrés par Agrischool sont reconnus par plusieurs organismes spécialisés dans le domaine agricole, et ils renforcent vos chances d'obtenir des emplois ou de développer vos propres projets.",
+    "discountsTitle": "Y a-t-il des réductions ou des bourses disponibles ?",
+    "discountsContent": "Oui, les certificats délivrés par Agrischool sont reconnus par plusieurs organismes spécialisés dans le domaine agricole, et ils renforcent vos chances d'obtenir des emplois ou de développer vos propres projets."
+  },
+  "faqTitle": "Questions Fréquemment Posées",
+  "faqDescription": "Si vous avez des questions supplémentaires, n'hésitez pas à contacter l'équipe de <span>Agrischool</span>.",
+  "footer": {
+    "contact": "Contactez-nous",
+    "courses": "Cours",
+    "about": "À propos de l'académie",
+    "home": "Page d'accueil"
+  }
+}

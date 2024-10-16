@@ -1,0 +1,83 @@
+.news_letter_section{
+  background-color: var(--black-color);
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+.news_letter_section .row{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.news_letter_section .description h3{
+  font-size: 30px;
+  color: var(--white-color);
+  font-family: var(--font-family);
+}
+.news_letter_section .email_area{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--white-color);
+  width: fit-content;
+  padding: 5px 10px 5px 5px;
+  border-radius: 10px;
+}
+.news_letter_section .button_area button{
+  width: 215px;
+  height: 43px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-size: var(--small-font-size);
+  font-weight: var(--big-font-weight);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.news_letter_section .input_area{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.news_letter_section .input_area input,
+.news_letter_section .input_area input::placeholder{
+  font-size: var(--small-font-size);
+  font-weight: var(--small-font-weight);
+  color: #B1AEA7;
+  width: 100%;
+}
+.news_letter_section .icon{
+  display: flex;
+}
+.news_letter_section .leaf_1{
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+}
+.news_letter_section .leaf_2{
+  position: absolute;
+  left: 150px;
+  bottom: 60px;
+  transform: rotate(15deg);
+}
+.news_letter_section .leaf_3{
+  position: absolute;
+  left: 300px;
+  bottom: 80px;
+  transform: rotate(30deg);
+}
+
+.leaf_1.rtl{
+  left: auto; /* Move to the right side */
+  right: 0;   /* Set to right for RTL */
+}
+
+.leaf_2.rtl {
+  left: auto; /* Move to the right side */
+  right: 150px; /* Set to the right for RTL */
+}
+
+.leaf_3.rtl {
+  left: auto; /* Move to the right side */
+  right: 300px; /* Set to the right for RTL */
+}

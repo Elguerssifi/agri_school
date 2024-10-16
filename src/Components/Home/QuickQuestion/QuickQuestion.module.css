@@ -1,0 +1,111 @@
+.quick_question_section{
+  background-color: var(--main-color);
+  padding-top: 60px ;
+  position: relative;
+  overflow: hidden;
+}
+.quick_question_section .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.quick_question_section .image_with_description{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 50px;
+}
+.quick_question_section .content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.quick_question_section .content h4{
+  font-size: var(--big-font-size);
+  color: var(--white-color);
+}
+.quick_question_section .content p{
+  color: var(--white-color);
+  font-size: 24px;
+  font-weight: var(--small-font-weight);
+}
+.quick_question_section .content p span{
+  font-weight: var(--big-font-weight);
+}
+.quick_question_section .image_area{
+  /* position: absolute;
+  bottom: -60px;
+  right: 0; */
+  overflow: hidden;
+  width: 100%;
+}
+.quick_question_section .image_area img{
+  height: 110%;
+  width: 100%;
+}
+.quick_question_section .image_area.rtl{
+  transform: scaleX(-1);
+}
+.quick_question_section .accordion_area{
+  width: 50%;
+}
+.accordion_container {
+  width: 100%;
+}
+.accordion_item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.accordion_header {
+  background-color: var(--white-color);
+  cursor: pointer !important;
+  padding: 20px 28px 20px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.accordion_header h4{
+  font-size: 16px;
+}
+.accordion_header h4 span{
+  color: var(--main-color);
+  font-weight: var(--big-font-weight);
+}
+/* .accordion_header:hover {
+  background-color: #eee;
+} */
+.accordion_title {
+  margin: 0;
+}
+.chevron svg{
+  width: 14px;
+}
+.accordion_content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.accordion_content.open {
+  max-height: 200px; /* adjust to your content height */
+  opacity: 1;
+}
+
+.accordion_content.closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordion_content p {
+  padding: 15px;
+  margin: 0;
+  background-color: rgba(240, 239, 239, 1);
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: var(--small-font-weight);
+}

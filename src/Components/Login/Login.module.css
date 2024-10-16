@@ -1,0 +1,103 @@
+.login_section{
+  padding: 60px 0;
+}
+.login_section .row{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.login_section .register_area{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.login_section .register_area .description{
+  display: flex;
+  flex-direction: column;
+}
+.login_section .register_area .description h4{
+  font-size: 30px;
+}
+.login_section .register_area .register_form form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login_section .register_area .register_form .input_container{
+  width: 100%;
+  height: 52px;
+  background-color: var(--white-color);
+  border: 1px solid rgba(203, 203, 203, 1);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.login_section .register_area .register_form .input_container .icon{
+  display: flex;
+}
+.login_section .register_area .register_form .input_container input{
+  font-size: 14.5px;
+  font-weight: var(--small-font-weight);
+  width: 100%;
+}
+.login_section .register_area .register_form .input_checkbox{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.login_section .register_area .register_form .input_checkbox label{
+  font-size: 14.5px;
+  font-weight: var(--small-font-weight);
+}
+.login_section .register_area .register_form .button_submit{
+  width: 100%;
+}
+.login_section .register_area .register_form .button_submit button{
+  width: 100%;
+  height: 59px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: var(--big-font-weight);
+  color: var(--white-color);
+}
+.login_section .register_area .register_form .redirection{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.login_section .register_area .register_form .redirection p{
+  font-size: var(--small-font-size);
+  font-weight: var(--small-font-weight);
+}
+.login_section .register_area .register_form .redirection a{
+  color: var(--main-color);
+  font-weight: var(--medium-font-weight);
+  position: relative;
+}
+.login_section .register_area .register_form .redirection a::after{
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--main-color);
+}
+.login_section .register_area .description p{
+  font-size: 22px;
+  font-weight: var(--big-font-weight);
+  color: var(--main-color);
+}
+.login_section .image_area{
+  overflow: hidden;
+  max-width: 581px;
+  max-height: 535.41px;
+  width: 50%;
+}
+.login_section .image_area img{
+  width: 100%;
+}
