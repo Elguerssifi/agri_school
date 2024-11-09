@@ -26,3 +26,119 @@
   width: 12px !important;
   height: 12px !important;
 }
+.body{
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+.body .cours_section_video{
+  width: 80%;
+}
+.body .cours_section_video video{
+  width: 100%;
+  border-radius: 20px;
+}
+.body .cours_section{
+  border: 1px solid #918E8E;
+  padding-bottom: 30px;
+  height: fit-content;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.body .cours_section .index,
+.body .cours_section .subSections{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.body .cours_section .section,
+.body .cours_section .subSection{
+  background-color: var(--black-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: var(--medium-font-weight);
+  color: var(--white-color);
+  border-radius: 10px;
+}
+.footer{
+  width: 69.5%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.footer .resume{
+  background-color: #E9F9E6;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+.footer .resume h3{
+  color: #6F9969;
+  font-size: 22px;
+}
+.footer .resume p{
+  font-size: 16px;
+}
+.footer .button_footer{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer .button_footer .button_back{
+  width: 339px;
+  border: 1px solid #528C4D;
+  color: #528C4D;
+}
+.footer .button_footer .button_next{
+  width: 192px;
+  background-color: #528C4D;
+  color: var(--white-color);
+}
+.footer .button_footer button{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: var(--medium-font-weight);
+  border-radius: 10px;
+  height: 47.8px;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.iconStart, .iconEnd {
+  width: 40px;
+  height: 40px;
+  background-color:#F0EFEF;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.iconStart svg, .iconEnd svg{
+  width: 70%;
+} 
+.progressBarCours {
+  flex: 1;
+  height: 12px; 
+  background-color: #e0e0e0;
+  position: relative;
+  margin: 0 10px; 
+  border-radius: 6px; 
+  overflow: hidden;
+}
+
+.progressBarCours .progress {
+  position: absolute;
+  top: 0;
+  right: 0; /* Start progress from the left */
+  height: 100%;
+  width: 0; /* Progress width will be controlled dynamically */
+  background-color: #AAE044; /* Green for progress */
+  transition: width 0.4s ease; /* Smooth transition for progress */
+}

@@ -1,0 +1,39 @@
+.login_admin_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+}
+.login_admin_container form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  height: 250px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px;
+}
+.login_admin_container form .input_container{
+  width: 100%;
+}
+.login_admin_container form .input_container input{
+  border: 1px solid var(--black-color);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login_admin_container form button{
+  background-color: var(--main-color);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: var(--small-font-size);
+  font-weight: var(--medium-font-weight);
+  color: var(--white-color);
+  cursor: pointer;
+}

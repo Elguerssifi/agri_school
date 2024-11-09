@@ -1,0 +1,156 @@
+.navbar_dashboard{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 0px;
+  z-index: 99;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: var(--white-color);
+  direction: ltr;
+}
+.navbar_dashboard .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_dashboard .logo img{
+  width: 30px;
+  height: 30px;
+}
+.navbar_dashboard .links{
+  display: flex;
+  gap: 29px;
+}
+
+.navbar_dashboard .links li a{
+  font-size: 16px;
+  font-weight: var(--medium-font-weight);
+  color: var(--black-color);
+}
+.navbar_dashboard .logout button{
+  background-color: #f14343;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: var(--white-color);
+}
+/* Home */
+.home {
+  padding-top: 80px;
+}
+.home .row{
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.formationRow {
+  text-align: left;
+}
+
+.formationImageCell {
+  text-align: left;
+}
+
+.formationImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.formationNameCell {
+  font-weight: var(--medium-font-weight);
+  font-size: var(--small-font-size);
+}
+.updateButton,
+.deleteButton,
+.AddVideoButton{
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.updateButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.deleteButton {
+  background-color: #f14343;
+  color: white;
+  border: none;
+}
+.AddVideoButton{
+  background-color: rgb(64, 64, 248);
+  color: white;
+  border: none;
+}
+.formationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.formationTable th,
+.formationTable td {
+  padding: 10px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+.formationTable th {
+  text-align: left;
+}
+
+.formationTable td {
+  text-align: left;
+}
+
+/* Create Formation*/
+.create_formation{
+  padding-top: 80px;
+}
+.create_formation .fromation_container{
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.create_formation .formation_main_info{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.create_formation .formation_main_info .input_container{
+  width: calc(50% - 5px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.create_formation .formation_main_info .input_container input{
+  border: 1px solid var(--black-color);
+  padding: 5px 10px;
+  font-size: var(--small-font-size);
+  border-radius: 5px;
+}
+.create_formation .formation_main_info .input_container label,
+.create_formation .formation_main_info .input_container_w100 label{
+  font-size: var(--small-font-size);
+  font-weight: var(--big-font-weight);
+  color: var(--black-color);
+}
+.create_formation .formation_main_info .input_container_w100{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.create_formation .formation_main_info .input_container_w100 textarea{
+  border: 1px solid var(--black-color);
+  padding: 5px 10px;
+  font-size: var(--small-font-size);
+  border-radius: 5px;
+  height: 120px;
+}

@@ -28,7 +28,6 @@ body{
   background-color: var(--white-color);
   font-family: 'Cairo', sans-serif;
   direction: rtl;
-
 }
 input,button,textarea{
   border: none;

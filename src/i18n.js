@@ -14,14 +14,14 @@ const resources = {
 };
 
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next) 
   .init({
     resources,
-    lng: 'ar', // default language
-    fallbackLng: 'ar', // fallback language if translation is not found
+    lng: 'ar', 
+    fallbackLng: 'ar', 
 
     interpolation: {
-      escapeValue: false // react already safes from xss
+      escapeValue: false 
     }
   });
 

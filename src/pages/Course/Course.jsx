@@ -18,7 +18,7 @@ const courses = [
     title_course: "أنظمة الطاقة الشمسية",
     price: 5000,
     old_price: 6000,
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "تصميم واجهات المستخدم",
@@ -27,7 +27,7 @@ const courses = [
     price: 4000,
     old_price: 5000,
     link: "/course/ui-design",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "تطوير التطبيقات",
@@ -36,7 +36,7 @@ const courses = [
     price: 7000,
     old_price: 8000,
     link: "/course/app-development",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "التسويق الرقمي",
@@ -45,7 +45,7 @@ const courses = [
     price: 4500,
     old_price: 5000,
     link: "/course/digital-marketing",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "إدارة المشاريع",
@@ -54,7 +54,7 @@ const courses = [
     price: 3800,
     old_price: 4500,
     link: "/course/project-management",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "تحليل البيانات",
@@ -63,7 +63,7 @@ const courses = [
     price: 6000,
     old_price: 7000,
     link: "/course/data-analysis",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "التصميم الجرافيكي",
@@ -72,7 +72,7 @@ const courses = [
     price: 5200,
     old_price: 6000,
     link: "/course/graphic-design",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   },
   {
     title_course: "برمجة مواقع الإنترنت",
@@ -81,7 +81,7 @@ const courses = [
     price: 7500,
     old_price: 8500,
     link: "/course/web-development",
-    videoSrc: "./Assets/videos/video_1.mp4" // Default video source
+    videoSrc: "./Assets/videos/video_1.mp4" 
   }
 ];
 

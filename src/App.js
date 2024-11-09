@@ -9,6 +9,9 @@ import { useTranslation } from 'react-i18next';
 import Quiz from './pages/Quiz/Quiz';
 import CertificatePage from './pages/CertificatePage/CertificatePage';
 import StudyVideosPages from './pages/StudyVideosPages/StudyVideosPages';
+import Admin from './pages/Admin/Admin';
+import LoginAdmin from './pages/LoginAdmin/LoginAdmin';
+import AddVideoFormation from './Components/Admin/AddVideoFormation/AddVideoFormation';
 
 function App() {
   const { i18n } = useTranslation(); 
@@ -25,6 +28,9 @@ function App() {
           <Route path="/quiz/:title" element={<Quiz />} />
           <Route path="/certificate" element={<CertificatePage />} />
           <Route path="/study-videos/:title" element={<StudyVideosPages />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/login-admin" element={<LoginAdmin />} />
+          <Route path="/admin/add-video/:id" element={<AddVideoFormation />} />
         </Routes>
       </div>
     </Router>
